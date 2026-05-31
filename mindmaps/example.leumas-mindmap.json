@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "slug": "example",
+  "name": "Leumas Project",
+  "description": "Starter long-term project mindmap seeded from the original MVP.",
+  "createdAt": "2026-05-30T00:00:00.000Z",
+  "updatedAt": "2026-05-30T00:00:00.000Z",
+  "viewport": {
+    "scale": 1,
+    "panX": 420,
+    "panY": 220
+  },
+  "nodes": [
+    {
+      "id": "node_1",
+      "type": "text",
+      "shape": "card",
+      "title": "Leumas Project",
+      "body": "Start with a main idea, then branch into product, API, UI, data, launch, and revenue.",
+      "x": -260,
+      "y": -60,
+      "w": 220,
+      "h": 130,
+      "color": "#00aaff",
+      "tags": [],
+      "collapsed": false,
+      "image": null,
+      "createdAt": "2026-05-30T00:00:00.000Z",
+      "updatedAt": "2026-05-30T00:00:00.000Z"
+    },
+    {
+      "id": "node_2",
+      "type": "text",
+      "shape": "circle",
+      "title": "Frontend",
+      "body": "Screens, components, flows, UX notes.",
+      "x": 80,
+      "y": -170,
+      "w": 220,
+      "h": 130,
+      "color": "#38ffb3",
+      "tags": [],
+      "collapsed": false,
+      "image": null,
+      "createdAt": "2026-05-30T00:00:00.000Z",
+      "updatedAt": "2026-05-30T00:00:00.000Z"
+    },
+    {
+      "id": "node_3",
+      "type": "text",
+      "shape": "card",
+      "title": "Backend",
+      "body": "Routes, database, auth, workers, SDK.",
+      "x": 100,
+      "y": 80,
+      "w": 220,
+      "h": 130,
+      "color": "#ff315f",
+      "tags": [],
+      "collapsed": false,
+      "image": null,
+      "createdAt": "2026-05-30T00:00:00.000Z",
+      "updatedAt": "2026-05-30T00:00:00.000Z"
+    }
+  ],
+  "links": [
+    {
+      "id": "link_1",
+      "from": "node_1",
+      "to": "node_2",
+      "label": "",
+      "color": "#38ffb3",
+      "direction": "none"
+    },
+    {
+      "id": "link_2",
+      "from": "node_1",
+      "to": "node_3",
+      "label": "",
+      "color": "#ff315f",
+      "direction": "none"
+    }
+  ]
+}
